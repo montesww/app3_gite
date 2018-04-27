@@ -1,0 +1,247 @@
+<!doctype html>
+
+<!DOCTYPE html>
+<html>
+
+ <head>
+ <!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Dia mundial de la bicicleta</title>
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/tema1.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+ 
+  <!--grupo JavaScript-->
+  <script src ="js/jquery-1.11.2.min.js"></script>
+  <script src ="js/jquery.mobile-1.4.5.min.js"></script>
+  <!--<script src ="js/acciones.js" type= "text/javascript"></script>-->
+ 
+  <script src ="phonegap.js"></script><!--necesario*/-->
+ <script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+ </script>
+ </head>
+
+<body onLoad="MM_preloadImages('imagenes/4bicicleta.png','imagenes/8bicicleta.jpg')">
+
+ <div data-role="page" id="Principal" data-theme="a">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Dia mundial de la bicicleta</h1>
+  </div> 
+  <div data-role="main" class="iu-content">
+   <div data-role="collapsible" data-comtent-theme="false">
+    <h1>Baneer conmemorativo</h1>
+    <div>
+     <p>Esto es el dia mundial de la bicicleta</p>
+     <br> 
+    </div>
+    <div>
+     <img src="imagenes/0bicicleta.jpg" width="50%" height="50%"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image13','','imagenes/4bicicleta.png',1)"><img src="imagenes/6bicicleta.jpg" width="300" height="370" id="Image13"></a> 
+    </div>
+   </div>
+  </div>
+  <div>
+    <ul data-role="listview" data-theme="c" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Historia de la bicicleta</h2>
+       
+      </a>
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Utilizacion como medio de transporte</h2>
+       
+      </a>      
+     </li>
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Tipos de bicicleta</h2>
+       
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>5 marcas importantes de bicicleta</h2>
+      
+      </a>      
+     </li> 
+     <li class="ui-first-child ui-last-child">
+      <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Por que se celebra el dia mundial de la bicicleta</h2>
+      
+      </a>      
+     </li>      
+    </ul>
+  </div>
+  <div dara-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <div>
+    <h4>Aplicación Tres</h4>
+    <h4>Jose Alejo Montes Lopoez </h4>
+   </div>
+  </div>
+ </div>
+ <div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Historia de la bicicleta</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> La primera bicicleta, fabricada con madera, se llamaba draisina porque la inventó Karl Drais en 1817. No tenía pedales: había que empujarla con los pies en el suelo. Un herrero escocés llamado Kirkpatrick Macmillan creó la primera máquina con pedales y dos ruedas en 1839 </h2>
+    <img src="imagenes/1bicicleta.png" width="50%" height="50%"><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/8bicicleta.jpg',1)"><img src="imagenes/7bicicleta.gif" width="250" height="377" id="Image14"></a>
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, JAML</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Utilizacion como medio de transporte</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> En el mundo se fabrican más de 100 millones de bicicletas anualmente, tres veces más que el número de automóviles, y únicamente en los países desarrollados como, Canadá, Alemania y Holanda así como en China, son tomadas en cuenta como medio de transporte, dándoles la misma prioridad en la planeación y el desarrollo de la infraestructura vial que a autobuses y automóviles. </h2>
+    <img src="imagenes/2bicicleta.png" width="50%" height="50%">
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, JAML</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Tipos de bicicleta</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>1.-Las bicicletas de montaña (también conocidas como MTB) están diseñadas para “fuera de ruta” por lo que son bastante resistentes.
+       2.-Son bicicletas orientadas a obtener velocidad en pavimento, de construcción más ligera que otras bicicleta.
+       3.-Las bicicletas híbridas son bastante versátiles ya que combinan características de las bicis de montaña y de las de ruta.
+       4.-Las BMX utilizan cuadros pequeños y resistentes, ideales para saltos y acrobacias.
+       5.-Las bicicletas Fat Bikes son de reciente aparición y su uso principal es sobre terrenos con nieve o arena, grandes piedras, raíces.</h2>
+       <img src="imagenes/3bicicleta.png" width="50%" height="50%">
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, JAML</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>5 marcas importantes de bicicleta</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2>   1-Specialized,
+           2-Scott,
+           3-Trek,
+           4-Giant,
+           5-Canyon,</h2>
+     <img src="imagenes/4bicicleta.png" width="50%" height="50%">
+     <!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/0bicicleta.jpg" alt="0bicicleta" title="0bicicleta" id="wows1_0"/></li>
+		<li><img src="data1/images/1bicicleta.png" alt="1bicicleta" title="1bicicleta" id="wows1_1"/></li>
+		<li><img src="data1/images/2bicicleta.png" alt="2bicicleta" title="2bicicleta" id="wows1_2"/></li>
+		<li><img src="data1/images/3bicicleta.png" alt="3bicicleta" title="3bicicleta" id="wows1_3"/></li>
+		<li><img src="data1/images/4bicicleta.png" alt="4bicicleta" title="4bicicleta" id="wows1_4"/></li>
+		<li><img src="data1/images/5bicicleta.png" alt="5bicicleta" title="5bicicleta" id="wows1_5"/></li>
+		<li><img src="data1/images/6bicicleta.jpg" alt="6bicicleta" title="6bicicleta" id="wows1_6"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/7bicicleta.jpg" alt="http://wowslider.net/" title="7bicicleta" id="wows1_7"/></a></li>
+		<li><img src="data1/images/8bicicleta.jpg" alt="8bicicleta" title="8bicicleta" id="wows1_8"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="0bicicleta"><span><img src="data1/tooltips/0bicicleta.jpg" alt="0bicicleta"/>1</span></a>
+		<a href="#" title="1bicicleta"><span><img src="data1/tooltips/1bicicleta.png" alt="1bicicleta"/>2</span></a>
+		<a href="#" title="2bicicleta"><span><img src="data1/tooltips/2bicicleta.png" alt="2bicicleta"/>3</span></a>
+		<a href="#" title="3bicicleta"><span><img src="data1/tooltips/3bicicleta.png" alt="3bicicleta"/>4</span></a>
+		<a href="#" title="4bicicleta"><span><img src="data1/tooltips/4bicicleta.png" alt="4bicicleta"/>5</span></a>
+		<a href="#" title="5bicicleta"><span><img src="data1/tooltips/5bicicleta.png" alt="5bicicleta"/>6</span></a>
+		<a href="#" title="6bicicleta"><span><img src="data1/tooltips/6bicicleta.jpg" alt="6bicicleta"/>7</span></a>
+		<a href="#" title="7bicicleta"><span><img src="data1/tooltips/7bicicleta.jpg" alt="7bicicleta"/>8</span></a>
+		<a href="#" title="8bicicleta"><span><img src="data1/tooltips/8bicicleta.jpg" alt="8bicicleta"/>9</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">responsive slider</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, JAML</h4>
+  </div>
+ </div>
+
+ <div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="c">
+  <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+   <h1>Por que se celebra el dia mundial de la bicicleta</h1> 
+  </div>
+  <div data-role="content" align="center">
+   <div>
+    <h2> El 19 de abril está marcado en el calendario como el Día Mundial de la Bicicleta. El porqué de esta celebración tiene detrás una historia muy interesante que merece la pena recordar hoy.
+
+En 1943, el químico suizo Albert Hofmann realizó un experimento en el que él mismo se atrevió a probar la dietilamida de ácido lisérgico (LSD) -en pequeñas cantidades y de manera voluntaria- para determinar sus efectos en el cuerpo humano. Tras la prueba, Hofmann experimentó alteraciones de la percepción y tuvo que pedir a su ayudante que le acompañase a casa.
+
+En aquella época la Segunda Guerra Mundial aún no había finalizado y el desplazamiento en vehículos motorizados estaba prohibido, así que ambos tuvieron que hacer el camino de vuelta en bicicleta.
+
+“Fantásticas imágenes caleidoscópicas surgían en mí, alternantes, variadas, se abrían y cerraban en círculos y espirales, y explotaban como fuentes de color, se reordenaban y mezclaban en un flujo constante”. Esto escribió Hofmann, que en ningún momento intuyó el uso recreacional del LSD, ni que su vuelta a casa sobre dos ruedas supondría el comienzo de la celebración del Día Mundial de la Bicicleta.</h2>
+    <img src="imagenes/5bicicleta.png" width="50%" height="50%">
+   </div>
+  </div>
+  <div data-role="footer" align="center" data-theme="c" data-position="fixed">
+   <div>
+    <img src="imagenes/icon.png" width="46" height="46">
+   </div>
+   <h4>Aplicación Tres, JAML</h4>
+  </div>
+ </div>
+
+</body>
+</html>
+        
